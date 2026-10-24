@@ -1,0 +1,19 @@
+# Python / Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive Local Evidence & Memory Dumps
+evidence/*.mem
+evidence/*.pcap
+*.raw
+
+# Local OS & Code Editor Artifacts
+.DS_Store
+.vscode/
+.idea/
+
+# Environment Variables & Secrets
+.env
+*.pem
+*.key
